@@ -83,7 +83,7 @@ def start(message):
 		K = types.InlineKeyboardButton(text ="(يوزرات ثلاثيه)", callback_data="SS")	
 		G = types.InlineKeyboardButton(text ="(يوزرات بوتات)", callback_data="F8")
 		V = types.InlineKeyboardButton(text ="(يوزرات مميزه)", callback_data="F100")
-		M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+		M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D ')
 		mas.add(G,K)
 		mas.add(V)
 		mas.add(M)
@@ -173,7 +173,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{h}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -202,7 +202,7 @@ def masg(call):
 		K = types.InlineKeyboardButton(text ="(يوزرات ثلاثيه)", callback_data="SS")	
 		G = types.InlineKeyboardButton(text ="(يوزرات بوتات)", callback_data="F8")
 		V = types.InlineKeyboardButton(text ="(يوزرات مميزه)", callback_data="F100")
-		M = types.InlineKeyboardButton('DEV', url='https://t.me/K_8_U')
+		M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 		mas.add(G,K)
 		mas.add(V)
 		mas.add(M)
@@ -247,7 +247,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	
@@ -289,7 +289,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{x}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="ew":
@@ -329,7 +329,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{x}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="b2":
@@ -370,7 +370,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{x}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	
@@ -412,7 +412,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{v}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F6":
@@ -450,7 +450,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F5":
@@ -488,7 +488,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F4":
@@ -526,7 +526,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F3":
@@ -564,7 +564,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F7":
@@ -604,7 +604,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{j}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				K_8_U = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
+				K_8_U = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,K_8_U)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -650,7 +650,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{cc}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/K_8_U')
+				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
