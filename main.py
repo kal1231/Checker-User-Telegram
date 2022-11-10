@@ -83,19 +83,13 @@ def start(message):
 		K = types.InlineKeyboardButton(text ="(يوزرات ثلاثيه)", callback_data="SS")	
 		G = types.InlineKeyboardButton(text ="(يوزرات بوتات)", callback_data="F8")
 		V = types.InlineKeyboardButton(text ="(يوزرات مميزه)", callback_data="F100")
-		M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D ')
 		mas.add(G,K)
 		mas.add(V)
-		mas.add(M)
 		bot.send_message(message.chat.id, text=f"- أهلاً {message.from_user.first_name}  !\n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 	else:
 		rr = types.InlineKeyboardMarkup(row_width=2)
-		me = types.InlineKeyboardButton(text="دراكون",url="https://t.me/T2R_9")
-		he = types.InlineKeyboardButton(text="مصنع بوتاتي",url="https://t.me/T2R_9BOT")
-		de = types.InlineKeyboardButton(text="مجر دراكون",url="https://t.me/T2R_8bot")
-		ch = types.InlineKeyboardButton(text="▶ قناة البوت ◀",url="https://t.me/Dragon_2022_D")
-		rr.add(me,he,de)
-		rr.add(ch)
+		me = types.InlineKeyboardButton(text="كال",url="https://t.me/BJRRR")
+		rr.add(me)
 		bot.send_message(message.chat.id,text="هذا البوت مدفوع وليس لك\n للتفعيل راسل",reply_markup=rr)
                
 @bot.callback_query_handler(func=lambda call: True)
@@ -121,8 +115,6 @@ def masg(call):
 		O = types.InlineKeyboardButton(text ="(I_C_E)", callback_data="F6")
 		
 		F = types.InlineKeyboardButton(text ="(UUU4UU)", callback_data="F7")
-		
-		M = types.InlineKeyboardButton('DEV', url='https://t.me/T2R_9')
 		
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 	elif call.data == "SS":
@@ -163,7 +155,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and d not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{h}\n────── • ✧✧ • ──────\n•مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{h}\n────── • ✧✧ • ──────\n•")
 				
 			else:
 				cp+=1
@@ -173,8 +165,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{h}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
 			
@@ -202,10 +193,8 @@ def masg(call):
 		K = types.InlineKeyboardButton(text ="(يوزرات ثلاثيه)", callback_data="SS")	
 		G = types.InlineKeyboardButton(text ="(يوزرات بوتات)", callback_data="F8")
 		V = types.InlineKeyboardButton(text ="(يوزرات مميزه)", callback_data="F100")
-		M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
 		mas.add(G,K)
 		mas.add(V)
-		mas.add(M)
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 		
 	
@@ -238,7 +227,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n•")
 			else:
 				cp+=1
 				sk+=1
@@ -247,8 +236,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	
 	elif call.data =="ew1":
@@ -280,7 +268,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n•")
 			else:
 				cp+=1
 				sk+=1
@@ -289,8 +277,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{x}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="ew":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -320,7 +307,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n•")
 			else:
 				cp+=1
 				sk+=1
@@ -329,8 +316,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{x}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="b2":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -361,7 +347,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n•")
 			else:
 				cp+=1
 				sk+=1
@@ -370,8 +356,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{x}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	
 		
@@ -403,7 +388,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and f not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{v}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{v}\n────── • ✧✧ • ──────\n•")
 			else:
 				cp+=1
 				sk+=1
@@ -412,8 +397,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{v}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F6":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -440,7 +424,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n•")
 				
 			else:
 				cp+=1
@@ -450,8 +434,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F5":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -478,7 +461,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n•")
 				
 			else:
 				cp+=1
@@ -488,8 +471,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F4":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -516,7 +498,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n•")
 				
 			else:
 				cp+=1
@@ -526,8 +508,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F3":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -554,7 +535,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n•")
 				
 			else:
 				cp+=1
@@ -564,8 +545,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{c}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F7":
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
@@ -595,7 +575,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and j not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{j}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{j}\n────── • ✧✧ • ──────\n•")
 			else:
 				cp+=1
 				sk+=1
@@ -604,8 +584,8 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{j}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				K_8_U = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,K_8_U)
+				KAL = types.InlineKeyboardButton('DEV', url='https://t.me/BJRRR')
+				mas.add(A,E,B,R,KAL)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
 	elif call.data =="F10":
@@ -640,7 +620,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and cs not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{cc}\n────── • ✧✧ • ──────\n• مطور البوت @T2R_9")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{cc}\n────── • ✧✧ • ──────\n•")
 				
 			else:
 				cp+=1
@@ -650,8 +630,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{cc}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('DEV', url='https://t.me/Dragon_2022_D')
-				mas.add(A,E,B,R,M)
+				mas.add(A,E,B,R)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
 def redirect_message():
